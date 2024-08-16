@@ -1,9 +1,30 @@
+// RECEBENDO LISTA COM PROPS SIMPLES
+// import Lista from "../Lista/Lista";
+// import ListaProps from "../Lista/ListaProps";
+
+// export default function Conteudo() {
+
+//     const nome = "Valor de nome"
+
+//     return (
+//       <main>
+//         <h2>Conteúdo</h2>
+//         <Lista/>
+//         <div>
+//           <p>Lista recebendo props</p>
+//           <ListaProps nome={nome}/>
+//         </div>
+//       </main>
+//     )
+//   }
+
+// RECEBENDO LISTA COM PROPS LISTA
 import Lista from "../Lista/Lista";
 import ListaProps from "../Lista/ListaProps";
 
 export default function Conteudo() {
 
-    const nome = "Valor de nome"
+    const nomes = ["Francisco", "Juninho", "Roberto", "Ronaldinho"]
 
     return (
       <main>
@@ -11,7 +32,7 @@ export default function Conteudo() {
         <Lista/>
         <div>
           <p>Lista recebendo props</p>
-          <ListaProps nome={nome}/>
+          <ListaProps nomes={nomes}/>
         </div>
       </main>
     )
