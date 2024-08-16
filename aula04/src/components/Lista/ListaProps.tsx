@@ -1,11 +1,15 @@
 export default ListaProps;
 
 type ListaProps = {
-    nome: string;
+    nomes: string[];
 }
 
-function ListaProps({ nome }: ListaProps) {
+function ListaProps({ nomes }: ListaProps) {
     return (
-        <div>{nome}</div>
+        <ul>
+            {nomes.map((nome, i) => (
+                <li key={i}>{nome}</li>
+            ))}
+        </ul>
     )
 }

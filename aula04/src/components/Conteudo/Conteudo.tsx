@@ -5,7 +5,7 @@ export default Conteudo;
 
 function Conteudo() {
 
-    const nome = "Valor do nome";
+    const nomes = ["Francisco", "Juninho", "Roberto", "Ronaldinho"];
 
     return (
         <main>
@@ -14,7 +14,7 @@ function Conteudo() {
             <Lista />
             <div>
                 <p> Lista recebendo props </p>
-                <ListaProps nome={nome} />
+                <ListaProps nomes={nomes} />
             </div>
 
         </main>
