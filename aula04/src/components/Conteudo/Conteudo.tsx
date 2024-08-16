@@ -16,3 +16,5 @@ export default function Conteudo() {
         </main>
     );
 }
+
+//recebendo lista com PROSPS
