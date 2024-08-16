@@ -3,7 +3,7 @@ import ListaProps from "../Lista/ListaProps";
 
 export default function Conteudo() {
 
-    const nome = "Valor do nome";
+    const nomes = ["Francisco", "Juninho", "Roberto", "Ronaldinho"];
 
     return (
         <main>
@@ -11,7 +11,7 @@ export default function Conteudo() {
             <Lista />
             <div>
                 <p>Lista recebendo Props</p>
-                <ListaProps nome={nome} />
+                <ListaProps nomes={nomes} />
             </div>
         </main>
     )
